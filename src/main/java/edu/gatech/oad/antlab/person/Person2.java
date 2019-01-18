@@ -5,7 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string 
  *
- * @author Will Gulian <wgulian@gatech.edu>
+ * @author Will Gulian (wgulian@gatech.edu)
  * @version 1.337
  */
 public class Person2 {
