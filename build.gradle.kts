@@ -35,6 +35,10 @@ dependencies {
 }
 
 tasks {
+    javadoc {
+        (options as StandardJavadocDocletOptions).addStringOption("Xdoclint:none", "-quiet")
+    }
+
     jar {
         manifest {
             attributes["Main-Class"] = "edu.gatech.oad.antlab.pkg1.AntLabMain"
