@@ -3,3 +3,10 @@
 
 # Ignore Gradle build output directory
 build
+
+# IntelliJ garbage
+.idea/
+out/
+
+# In case anyone has the nerve to use osx
+.DS_Store
