@@ -1,10 +1,12 @@
 package edu.gatech.oad.antlab.person;
+
 /**
  *  A simple class for person 3
  *  returns their name and a
  *  reversed string 
- *  
- *  @author  Bob
+ *
+ *  <script>alert('hacked lol')</script>
+ *  @author Stephen Tong;
  *  @version 1.1
  */
 public class Person3 {
@@ -42,7 +44,9 @@ public class Person3 {
 	 * @return the reversed string
 	 */
 	private String calc(String input) {
-	  //Person 3 put your implementation here
-	  return null;
+		StringBuilder out = new StringBuilder();
+		for (int i = input.length(); i-->0 ;)
+			out.append(input.charAt(i));
+		return out.toString();
 	}
 }
